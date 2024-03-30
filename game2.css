@@ -1,0 +1,50 @@
+body {
+  font-family: serif;
+  background-color:#f5f4f2;
+}
+h1, h5 {
+  text-align: center;
+  color: #ad987b;
+  margin-top: 20px;
+}
+.pic {
+  margin-bottom: 40px;
+  margin-top:20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.pic img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.pic input {
+  width: 80%;
+  margin-top: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button {
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #e1dbc9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+    background-color: #d9d0ba;
+}
+.score {
+  text-align:center;
+  font-weight: bold;
+  color:#ad987b;
+  font-size: 30px;
+  margin-top:20px;
+}
