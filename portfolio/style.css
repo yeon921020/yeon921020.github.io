@@ -1,0 +1,240 @@
+body {
+  background-color: #f9f7f4;
+  font-family: "Poppins", sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* ==================Navigation================== */
+.navbar {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.bg-color {
+  background-color: #f3e8d1;
+}
+.nav-link {
+  position: relative;
+  color:#000000;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav-link:hover {
+  font-weight: 1000;
+}
+.nav-link::after {
+  content: '';
+  position: center;
+  display:block;
+  left: 0;
+  bottom: -1px;
+  width: 20px;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+.nav-link:hover::after {
+  background-color: #b1a07e;
+}
+.navbar-toggler {
+  border: 2px solid #000000;
+}
+.navbar-toggler-icon {
+  color: #000000;
+}
+
+/* ==================Decoration================== */
+.decoration {
+
+
+}
+
+/* ==================Introduction================== */
+.introduction {
+  padding: 3rem;
+}
+.box {
+  align-items: center;
+  text-align: center;
+}
+.introduction_container {
+  background-color: white;
+  border: 2px solid #000000;
+  padding: 2rem;
+}
+.introduction_p {
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+.mywork {
+  background-color: #f7dc67;
+  padding: 0.8rem;
+  border: 2px solid #000000;
+  color: #000000;
+  border-radius: 3rem;
+  width: fit-content;
+  font-weight: bolder;
+}
+.mywork:hover {
+  background-color: #9bcaed;
+}
+.Hi {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/* ==================About=================== */
+.about_title {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.myskill {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.progress {
+  border: 2px solid #000000;
+}
+.progress-bar {
+  background-color: #f7dc67;
+}
+.experience {
+  padding: 1rem;
+  background-color: #fcf7ec;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+.experience_time {
+  color: #e05855;
+}
+.experience_title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.experience_text {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* ==================Portfolio=================== */
+.potfolio {
+  background-color: white;
+  border: 2px solid black;
+  margin: 1rem;
+  width: calc(100% - 2rem);
+}
+.mywork_title {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.zoom {
+    transition: transform .2s;
+  }
+.toupic {
+  border: 2px solid black;
+}
+.toupic:hover {
+  transform: scale(1.03);
+}
+.btn {
+  font-weight: bolder;
+  margin: 0.2rem;
+  background-color: #f7dc67;
+  padding: 0.4rem;
+  border: 2px solid #000000;
+  color: #000000;
+  border-radius: 0.5rem;
+  width: fit-content;
+}
+.btn:hover {
+  background-color: #9bcaed;
+  border: 2px solid #000000;
+}
+
+/* ==================Contact=================== */
+.contact {
+    padding: 2rem;
+    /* background-color: white; */
+    /* border: 2px solid black; */
+}
+.contact_title {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+.contactme {
+  background-color: #f7dc67;
+  padding: 0.8rem;
+  border: 2px solid #000000;
+  color: #000000;
+  border-radius: 3rem;
+  width: fit-content;
+  font-weight: bolder;
+}
+.contactme:hover {
+  background-color: #9bcaed;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-group {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between; /* label靠左，input靠右 */
+    margin-bottom: 1rem; /* 为每个form-group添加一些底部间距 */
+}
+.form-group label {
+    flex-shrink: 0; /* 防止label在容器宽度不足时被压缩 */
+    text-align: left; /* label文本左对齐 */
+}
+.form-group .form-control {
+    flex: 1; /* 输入框占据剩余空间 */
+    /* 可以设置一个具体的max-width来限制最大宽度 */
+    max-width: 400px; /* 例如，最大宽度为300像素 */
+}
+label {
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"] {
+    flex-grow: 1; /* 输入框填满剩余空间 */
+    padding: 0.5rem;
+    border: 2px solid #000000; /* 添加黑色边框 */
+    box-sizing: border-box;
+}
+textarea {
+  resize: none;
+}
+textarea.form-control {
+    border: 2px solid #000000; /* 覆盖边框样式 */
+}
+
+
+/* ==================Footer=================== */
+.social a{
+  font-size: 1.5rem;
+  padding: 1rem;
+  color:#000000;
+}
+
+footer {
+  background-color: #f3e8d1;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.footer_social a {
+  color: #000000;
+}
+.footer_social :hover {
+    color: #b1a07e;
+    font-weight: bolder;
+  }
