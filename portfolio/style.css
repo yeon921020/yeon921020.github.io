@@ -8,6 +8,9 @@ a:link {
 
 /* ==================Navigation================== */
 .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
 }
@@ -46,8 +49,7 @@ a:link {
 
 /* ==================Decoration================== */
 .decoration {
-
-
+margin-top: 5rem;
 }
 
 /* ==================Introduction================== */
